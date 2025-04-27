@@ -14,7 +14,7 @@ int main() {
     printf("Por favor, insira os dados da primeira carta:\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado1); // Captura o estado (A-H)
-    printf("COdigo da carta: ");
+    printf("Codigo da carta: ");
     scanf("%s", codigoCarta1); // Captura o código da carta
     printf("Nome da cidade: ");
     scanf("%s", nomeCidade1); // Captura o nome da cidade
@@ -27,7 +27,7 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &numPontosTuristicos1); // Captura o número de pontos turísticos
 
-    printf("\nDados da carta cadastrada:\n");
+    printf("\nDados da primeira carta cadastrada:\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo da carta: %s\n", codigoCarta1);
     printf("Nome da cidade: %s\n", nomeCidade1);
@@ -36,7 +36,7 @@ int main() {
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Numero de pontos turisticos: %d\n", numPontosTuristicos1);
 
-    printf("Por favor, insira os dados da segunda carta:\n");
+    printf("\nPor favor, insira os dados da segunda carta:\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado2); // Captura o estado (A-H)
     printf("Codigo da carta: ");
@@ -52,7 +52,7 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &numPontosTuristicos2); // Captura o número de pontos turísticos
 
-    printf("\nDados da carta cadastrada:\n");
+    printf("\nDados da segunda carta cadastrada:\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo da carta: %s\n", codigoCarta2);
     printf("Nome da cidade: %s\n", nomeCidade2);
