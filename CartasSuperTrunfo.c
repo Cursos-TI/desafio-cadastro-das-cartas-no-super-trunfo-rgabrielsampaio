@@ -13,6 +13,7 @@ int main() {
     float densidade1 = (float)populacao1 / area1, densidade2 = (float)populacao2 / area2;
     float pibPerCapita1 = pib1 * 1000000000 / populacao1, pibPerCapita2 = pib2 * 1000000000 / populacao2;
 
+    // Exibição dos dados das cartas
     printf("Que atributo você quer comparar?\n");
     printf("1 - Nome da cidade\n");
     printf("2 - População\n");
@@ -21,6 +22,7 @@ int main() {
     printf("5 - Pontos turísticos\n");
     printf("6 - Densidade demográfica\n");
 
+    // Leitura da opção do usuário
     switch (getchar()) {
         case '1':
             printf("Comparação das cartas (Atributo: Nome da cidade)\n");
